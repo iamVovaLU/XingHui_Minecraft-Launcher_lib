@@ -1,0 +1,17 @@
+[project]
+name = "xh-mcl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "VovaLU", email = "vova1525@foxmail.com" }
+]
+requires-python = ">=3.12.7"
+dependencies = []
+
+[project.scripts]
+xh-mcl = "xh_mcl:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
